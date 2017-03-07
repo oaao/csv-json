@@ -21,7 +21,6 @@ def parse_args():
     parsed_args = p_arg.parse_args()
     return parsed_args
 
-
 if __name__ == "__main__":
     args = parse_args()
-    convert(args.csv, args.json, args.indent)
+    convert(args.csv, args.delimiter, args.json, args.indent)
