@@ -7,7 +7,7 @@ A very simple CSV to JSON conversion script with command-line arguments.
 
 The script takes an input CSV file in its same directory and outputs a specified JSON file as follows:
 
-    python csv_json.py -i `inputCSVfile` -o `outputJSONfile` --indent 4
+    python csv_json.py -i inputCSVfile -o outputJSONfile --indent 4
     
 The input and output files must be given; see below for additional optional parameters.
 
